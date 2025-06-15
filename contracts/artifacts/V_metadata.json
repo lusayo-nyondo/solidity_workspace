@@ -6,15 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
 					{
 						"internalType": "string",
-						"name": "_text",
+						"name": "",
 						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -43,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Constructors.sol": "T"
+			"contracts/Constructors.sol": "V"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

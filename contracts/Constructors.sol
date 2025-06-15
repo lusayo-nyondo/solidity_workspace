@@ -21,3 +21,14 @@ contract T {
 contract U is S("s"), T("t") {
 
 }
+
+contract V is S, T {
+    constructor() S("S from V") T("T from V") {
+
+    }
+}
+
+contract X is S("s"), T {
+    constructor(string memory _name) T(_name) {
+    }
+}
